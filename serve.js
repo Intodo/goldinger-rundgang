@@ -25,10 +25,22 @@ const MIME = {
   '.webm': 'video/webm',
 };
 
-// Echte API-Antwort (aus tour-data/api.ogulo.com/tour/viewer)
-const FAKE_AUTH = fs.readFileSync(
-  path.join(__dirname, 'tour-data/api.ogulo.com/tour/viewer'), 'utf8'
-);
+// Universelle Antwort für alle unbekannten API-Endpunkte
+const FAKE_AUTH = JSON.stringify({
+  success: true, code: 200, message: 'Success',
+  response: {
+    tour_id: 'dc19acf5-2c01-4f9c-a859-7b18a9c3cb4f',
+    user_id: '57df91a0-4118-11eb-a9f9-06ccb66341dc',
+    company_id: 'fe773d14-24a1-11e9-b318-0691b6876928',
+    status_id: 200,
+    access: true, granted: true, is_public: true,
+    status: 'active',
+    login: { required: false, enabled: false, providers: [] },
+    registration: { required: false, enabled: false },
+    user: { id: '57df91a0-4118-11eb-a9f9-06ccb66341dc', is_guest: false },
+  },
+  metadata: null,
+});
 
 // Service Worker registrieren + Seite neu laden sobald SW aktiv ist (beim ersten Besuch)
 const PATCH_SCRIPT = `<script>
