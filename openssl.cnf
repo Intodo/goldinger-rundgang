@@ -1,0 +1,18 @@
+[req]
+distinguished_name = req_distinguished_name
+x509_extensions = v3_req
+prompt = no
+
+[req_distinguished_name]
+CN = ogulo-local
+
+[v3_req]
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = tour.ogulo.com
+DNS.2 = api.ogulo.com
+DNS.3 = developer.ogulo.com
+DNS.4 = live-alpha-ogulo.s3.eu-central-1.amazonaws.com
+DNS.5 = rundgang.goldinger.ch
+DNS.6 = localhost

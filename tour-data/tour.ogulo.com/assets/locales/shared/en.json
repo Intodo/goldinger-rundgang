@@ -1,0 +1,23 @@
+{
+    "SHARED": {
+        "BUG REPORT": {
+            "TITLE": "An error appears to have occurred",
+            "DESCRIPTION": "Please apologize for the inconvenience. Our team has been notified of the potential issue. If you can provide us with a brief explanation of how you believe the error occurred, this information may help us resolve it. Thank you for your Support!",
+            "REPORT BUG": "Report a bug",
+            "INPUT": {
+                "NAME": "Name",
+                "EMAIL": "E-Mail",
+                "DESCRIPTION": "Description"
+            }
+        },
+        "CANCEL": "Cancel",
+        "CONFIRM": "Confirm",
+        "OK": "Ok",
+        "VERSION": {
+            "TITLE": "New version",
+            "DESCRIPTION": "A new version is available. Please reload the page.",
+            "CONFIRM": "Reload now",
+            "CANCEL": "Later"
+        }
+    }
+}

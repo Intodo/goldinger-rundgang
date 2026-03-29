@@ -1,0 +1,66 @@
+{
+    "AUTO TOUR CREATION": {
+        "THANK YOU FOR YOU INTEREST": "Vielen Dank für Ihr Interesse!",
+        "THIS IS A PAID FEATURE": "Bei diesem Tool handelt es sich um ein kostenpflichtiges Zusatzfeature. Wenn Sie dieses zu Ihrem bestehenden Vertrag hinzubuchen möchten oder Fragen haben, kontaktieren Sie uns gerne.",
+        "BANNER": "Sie sind für die \"Automatische Tourenerstellung\" freigeschaltet. Jetzt beauftragen"
+    },
+    "AUTOMATIC": {
+        "CHANGES IN TOUR ORDER PROCESS": "Änderungen am Bestellprozess für die automatische Tourenerstellung",
+        "DO NOT SHOW AGAIN": "Diese Meldung nicht mehr anzeigen",
+        "HEADLINE": "Automatische Tourenerstellung",
+        "DISABLED": "Diese Tour wird bereits automatisch erstellt.",
+        "TESTIMONIAL": {
+            "HEAD OF SALES": "Leiter Vertriebsmanagement",
+            "HEADLINE": "Wir übernehmen für Sie die Tourenerstellung!",
+            "LABEL": "Info",
+            "QUOTE": "Die virtuelle Immobilienbesichtigung von Ogulo ist ein fester Bestandteil der digitalen Objektvermarktung von Postbank Immobilien. Dabei ist vor allem die \"Automatische Tourenerstellung\" für uns interessant.\n\nDurch die zentrale Erstellung der 360°-Tour durch Ogulo müssen unsere Makler lediglich die Aufnahmen machen und technisch unterstützt eine Bestellung abgeben. Alles weitere wird durch Ogulo übernommen.\n\nSomit haben unsere Makler mehr Zeit für das Wesentliche: Neue Vermittlungsaufträge zu erhalten und Objekte zu vermarkten."
+        },
+        "ORDER OVERVIEW": {
+            "BENEFIT 1": "Professionelle Bildbearbeitung",
+            "BENEFIT 2": "Retuschierung (Kennzeichen, Personen, etc.)",
+            "BENEFIT 3": "Immersive Dollhouse-Ansicht",
+            "BENEFIT 4": "Individualisierbare Grundrisse",
+            "CANCEL": "Abbrechen",
+            "COMMENT": "Bemerkung",
+            "COMMENT ERROR": "Ihre Bemerkung sollte weniger als 1000 Zeichen betragen.",
+            "HEADLINE 1": "Ihr Vorteil",
+            "HEADLINE 2": "Preise",
+            "LABEL": "Bestellübersicht",
+            "ORDER": "Jetzt bestellen"
+        },
+        "CONFIRMATION": {
+            "DESCRIPTION": "Wir haben Ihre Bestellung erhalten!\n In Ihrem Postfach befindet sich die Bestätigungsmail",
+            "HEADLINE": "Vielen Dank für Ihre Bestellung",
+            "LABEL": "Bestätigung",
+            "CLOSE": "Schließen"
+        }
+    },
+    "CANCEL ORDER": {
+        "TITLE": "Bestellung abbrechen",
+        "DESCRIPTION": "Wollen Sie die Bestellung wirklich abbrechen? Ihre bisherigen Eingaben werden gelöscht."
+    },
+    "DIY": {
+        "TOUR WILL BE CREATED": "Einen Moment bitte. Die Tour wird erzeugt."
+    },
+    "ORDER COMMON": {
+        "BACK": "Zurück",
+        "HIDE": "Nicht mehr anzeigen",
+        "NEXT": "Weiter",
+        "OK": "Ok"
+    },
+    "ORDER ERRORS": {
+        "MAXIMUM TOUR CONTINGENT": "Maximales Kontingent erreicht",
+        "MAXIMUM TOUR CONTINGENT DESC": "Entschuldigen Sie, aber Sie haben Ihr maximales Kontingent für Rundgänge erreicht. Bitte upgraden Sie Ihren Account, um Ihr Kontingent zu erhöhen oder wenden Sie sich an Ihren Admin.",
+        "CONTRACT NOT ACTIVE OR VALID": "Nicht erlaubt",
+        "CONTRACT NOT ACTIVE OR VALID DESC": "Entschuldigen Sie, aber Ihr Vertrag wurde gekündigt oder ist ausgelaufen.",
+        "UNKNOWN ERROR": "Unbekannte Fehler",
+        "UNKNOWN ERROR DESC": "Das hat leider nicht geklappt. Bitte versuchen Sie es erneut oder kontaktieren Sie bitte unseren Support.",
+        "UNKNOWN GENERAL ERROR": "Ein Fehler beim Bestellvorgang ist aufgetreten. Bitte schließen Sie den Dialog und starten Sie erneut."
+    },
+    "SELECTION": {
+        "DESCRIPTION": "Wie möchten Sie eine virtuelle Tour über Ogulo erstellen?",
+        "HEADLINE": "Erstellungsart",
+        "AUTOMATIC": "Schicken Sie uns Ihre 360° Panoramafotos und wir erstellen Ihre Tour. Ich habe bereits Panoramafotos vor Ort erstellt und möchte diese nun durch die Ogulo Grafiker zu einer 360° Tour verknüpfen lassen. (Dieser Service beinhaltet die Nachbearbeitung der Fotos in Photoshop und dauert ca. 2-3 Werktage.)",
+        "DIY": "Ich habe bereits Panoramafotos vor Ort erstellt und möchte diese nun selbstständig zu einer 360°-Tour verknüpfen."
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "SHARED": {
+        "BUG REPORT": {
+            "TITLE": "Es scheint ein Fehler aufgetreten zu sein",
+            "DESCRIPTION": "Bitte entschuldigen Sie die Unannehmlichkeiten. Unser Team wurde über das potentielle Problem benachrichtigt. Wenn Sie uns kurz mitteilen, wie es aus Ihrer Sicht zu dem Fehler gekommen ist, kann uns diese Info bei der Behebung weiterhelfen. Vielen Dank für Ihre Unterstützung!",
+            "REPORT BUG": "Fehler melden",
+            "INPUT": {
+                "NAME": "Name",
+                "EMAIL": "E-Mail",
+                "DESCRIPTION": "Beschreibung"
+            }
+        },
+        "CANCEL": "Abbrechen",
+        "CONFIRM": "Bestätigen",
+        "OK": "Ok",
+        "VERSION": {
+            "TITLE": "Neue Version",
+            "DESCRIPTION": "Eine neue Version der Anwendung ist verfügbar. Bitte laden Sie die Seite neu.",
+            "CONFIRM": "Neu laden",
+            "CANCEL": "Später"
+        }
+    }
+}

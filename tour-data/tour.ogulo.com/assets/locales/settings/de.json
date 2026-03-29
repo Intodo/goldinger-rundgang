@@ -1,0 +1,50 @@
+{
+    "SETTINGS LIB": {
+        "DELETE SETTINGS": "Einstellungen löschen",
+        "OAUTH2": {
+            "AGENT ERROR": "HINWEIS: Sie müssen Co-Admin oder Admin sein, um die Einstellungen für OAuth 2.0 bearbeiten zu können.",
+            "TITLE": "OAuth 2.0",
+            "DELETE CANCEL": "Abbrechen",
+            "DELETE CONFIRM": "Löschen",
+            "DELETE CONFIRM TITLE": "OAuth 2.0 Einstellungen löschen",
+            "DELETE CONFIRM DESC": "Möchten Sie die OAuth 2.0 Einstellungen wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+            "DESC": "Durch das Hinterlegen von OAuth 2.0 SSO in Ihrem Konto wird ein zentralisiertes Anmeldeverfahren etabliert, welches es Ihren Mitarbeitern ermöglicht, sich mit bestehenden Anmeldeinformationen sicher anzumelden. Dies vereinfacht den Zugriffsprozess und erhöht die Sicherheit, indem es die Notwendigkeit reduziert, mehrere Passwörter zu verwalten und zu merken. Bitte beachten Sie, dass diese Funktion speziell für Organisationen entwickelt wurde, die eine umfassende Kontrolle und Anpassung ihrer Authentifizierungsprozesse benötigen. Die Implementierung und Verwaltung von OAuth 2.0 SSO erfordert technisches Verständnis.",
+            "APPLICATION": {
+                "TITLE": "Applikation",
+                "DESC": "Bei der Application handelt es sich um den internen Bereich, indem Sie u.a. 360° Touren sowie Interessenten verwalten. Die Application ist im Web via app.ogulo.com oder über die Mobile App erreichbar.",
+                "ENABLE_LABEL": "OAuth SSO für Application aktivieren",
+                "FORCE_LABEL": "OAuth SSO für Application erzwingen*",
+                "CAPTION": "*Durch die Aktivierung wird der herkömmliche Login-Prozess deaktiviert, sodass jeder aus Ihrem Team den OAuth SSO-Authentifizierungsprozess durchlaufen muss. Sofern alle Team-Mitglieder über ein zentralisiertes Anmeldeverfahren verfügen, wird diese Einstellung empfohlen."
+            },
+            "VIEWER": {
+                "TITLE": "Viewer",
+                "DESC": "Bei dem Viewer handelt es sich um die 360° Tour, inder die virtuelle Besichtigung stattfindet. Der Viewer ist im Web via https://tour.ogulo.com/**** oder wahlweise über Ihre eigene Domain erreichbar.",
+                "ENABLE_LABEL": "OAuth SSO für Viewer aktivieren",
+                "FORCE_LABEL": "OAuth SSO für Viewer erzwingen*",
+                "CAPTION": "*Durch die Aktivierung wird der herkömmliche Login-Prozess deaktiviert, sodass jeder aus Ihrem Team den OAuth SSO-Authentifizierungsprozess durchlaufen muss. Wichtig! Diese Einstellung wird nur empfohlen, wenn ausschließlich Team-Mitglieder, die über ein zentralisiertes Anmeldeverfahren verfügen, auf passwortgeschützte 360° Touren zugreifen dürfen. Durch die Aktivierung werden Firmenexterne Interessenten somit ausgeschlossen."
+            },
+            "CALLBACK": {
+                "TITLE": "Callback",
+                "DESC": "Die Connection benötigt eine Callback-URL, damit Verknüpfungen bei Bedarf wiederhergestellt werden können. Dies gewährleistet eine kontinuierliche und zuverlässige Kommunikation innerhalb des Systems."
+            },
+            "INSTALLATION": {
+                "TITLE": "Einrichtung",
+                "AUTHORIZATION_URI": "Autorisierungs-URI",
+                "AUTHORIZATION_URI_DESC": "Benutzende werden zur Autorisierungs-URI-Seite weitergeleitet, wenn sie auf \"Mit Firmen-SSO einloggen\" klicken",
+                "CLAIM": "Claim-Feld",
+                "CLAIM_DESC": "Dieses Feld gibt an, unter welchem Claim die E-Mail der Benutzer beim OAuth-Anbieter gespeichert sind. Bei vielen OAuth-Anbietern lautet der Wert \"email\"",
+                "CLIENT_ID": "Client-ID",
+                "CLIENT_ID_DESC": "Eindeutiger Identifikator, den wir zusammen mit dem Client-Secret verwenden, um uns bei Ihrem OAuth-Service sicher zu authentifizieren",
+                "CLIENT_SECRET": "Client-Secret",
+                "CLIENT_SECRET_DESC": "Geheimer Schlüssel, den wir zusammen mit der Client-ID verwenden, um uns bei Ihrem OAuth-Service sicher zu authentifizieren",
+                "SCOPES": "Scopes",
+                "SCOPES_DESC": "Dieses Feld gibt an, wie die Informationen des Benutzers übertragen werden. Bei vielen OAuth-Anbietern lautet der Wert \"openid, email\"",
+                "TOKEN_URI": "Token-URI",
+                "TOKEN_URI_DESC": "Ogulo ruft diesen Endpunkt auf, um ein Token zu erhalten, mit dem überprüft wird, ob die eingegebenen Zugriffsdaten korrekt sind"
+            },
+            "TOGGLE HINT": "Bitte füllen Sie zunächst alle Pflichtfelder unter \"Einrichtung\" aus, um OAuth 2.0 zu aktivieren",
+            "TOGGLE HINT 2": "Bitte füllen Sie zunächst alle Pflichtfelder unter \"Einrichtung\" aus, um OAuth 2.0 zu aktivieren und aktivieren Sie OAuth 2.0 für die Applikation",
+            "TOGGLE HINT 3": "Bitte füllen Sie zunächst alle Pflichtfelder unter \"Einrichtung\" aus, um OAuth 2.0 zu aktivieren und aktivieren Sie OAuth 2.0 für den Viewer"
+        }
+    }
+}

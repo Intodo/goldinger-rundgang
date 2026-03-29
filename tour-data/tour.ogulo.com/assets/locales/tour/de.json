@@ -1,0 +1,101 @@
+{
+    "IMAGE EDITOR": {
+        "BRIGHTNESS": "Helligkeit",
+        "BRUSH SIZE": "Pinselgröße",
+        "BRUSH SHAPE": "Pinselart",
+        "CONTRAST": "Kontrast",
+        "ERRORS": {
+            "CONTEXT LOST": "WebGL-Kontext verloren. Bitte laden Sie die Seite neu. Wahrscheinlich ist Ihr Bild zu groß.",
+            "ERROR WHILE SAVING": "Fehler beim Speichern des Bildes. Bitte versuchen Sie es erneut. Wahrscheinlich ist Ihr Bild zu groß.",
+            "ERROR WHILE CREATING TILES": "Fehler bei der Darstellung des Bildes. Bitte versuchen Sie es erneut. Wahrscheinlich ist Ihr Bild zu groß.",
+            "GL NOT AVAILABLE": "Ihr Browser unterstützt kein WebGL. Bitte verwenden Sie einen anderen Browser.",
+            "IMAGE TOO LARGE": "Entschuldigen Sie, aber Ihr Bild ist zu groß. Die maximale unterstützte Größe unseres Systems auf Ihrem Computer ist {{maxTextureSize}}px je Dimension. Ihr Bild hat {{imageWidth}}x{{imageHeight}}px."
+        },
+        "GREEN": "Grün",
+        "IMAGE EDITOR": "Bildbearbeitung",
+        "RESET": "Zurücksetzen",
+        "RETOUCHING": "Retuschieren",
+        "RETOUCHING WARNING": "Klicken Sie ins Panorama und zeichnen Sie ein Vieleck um den Bereich, den Sie verpixeln möchten. Schließen Sie die Auswahl mit einem Doppelklick. Nach dem Klick auf Speichern wird die Verpixelung serverseitig verarbeitet und ist in etwa 2-3 Minuten sichtbar. <!-- <a href=\"http://example.com\" target=\"_blank\">Mehr erfahren</a> -->",
+        "RETOUCHING UNSAVED CHANGES": "Sie haben ungespeicherte Änderungen. Möchten Sie Ihre Änderungen wirklich löschen?",
+        "RETOUCHING START": "Die Retusche wird von unseren Servern verarbeitet. Das Ergebnis steht den Nutzern in wenigen Minuten zur Verfügung.",
+        "RETOUCHING ERROR": "Bei der Verarbeitung der Retusche ist ein Fehler aufgetreten.",
+        "SATURATION": "Sättigung",
+        "SAVE": "Speichern",
+        "WARM COLD": "Warm/Kalt"
+    },
+    "MEASUREMENT": {
+        "AGREEMENT": "Mir ist bewusst, dass im Rahmen der Beta-Testphase Maßabweichungen auftreten können. Dennoch möchte ich die 360° Tour mit Maßangaben freischalten und akzeptiere die damit verbundenen Einschränkungen.",
+        "CALCULATED NODALHEIGHT": "Aus der angegebenen Referenzmessung wird folgende Nodalpunkthöhe automatisch übernommen",
+        "MEASUREMENT TOOL": "Vermessungstool",
+        "REVERSE": "Um eine Vermessung innerhalb von Ogulo durchführen zu können, benötigen wir einen geeigneten Referenzwert. Dieser setzt sich üblicherweise aus der Kamerahöhe (Nodalpunkt) zusammen. Sollten Sie die Höhe des Nodalpunkt nicht kennen, können wir diese ganz einfach aufgrund der von Ihnen festgelegten Referenzmessung errechnen. Korrigieren Sie hierzu bitte den Wert Ihrer Messung. Sollten Sie das Maß der Referenzmessung nicht kennen, bitten wir Sie auf ein Maß zurückzugreifen, welches Sie leicht bestimmen können, z. B. Türbreite/-Höhe, Bett, Fenster o. ä.",
+        "REFERENCE": "Referenzmessung",
+        "REFERENCE TOO BIG": "Die Referenzmessung ist zu groß",
+        "REFERENCE TOO SMALL": "Die Referenzmessung ist zu klein",
+        "SAVE": "Nodalpunkthöhe speichern",
+        "SPECIFY MEASUREMENT": "Bitte geben Sie den korrekten Wert Ihrer vorhin getätigten Referenzmessung an",
+        "NODALHEIGHT TOO BIG": "Die Nodalhöhe ist zu groß",
+        "NODALHEIGHT TOO SMALL": "Die Nodalhöhe ist zu klein",
+        "WARNING": "Info: Die gezeigten Maße können von den tatsächlichen Maßen vor Ort abweichen. Die horizontale Vermessung ist lediglich auf dem Boden möglich. Die vertikale Vermessung muss auf dem Boden starten.",
+        "WARNING 2": "Die Anpassung erfolgt ausschließlich für den ausgewählten Standpunkt."
+    },
+    "PANO EDITOR": {
+        "DELETE": "Löschen",
+        "DOWNLOAD": "Herunterladen",
+        "FAIR WEATHER": "Schönwetter",
+        "IMAGE EDITOR": "Bildbearbeitung",
+        "MORE": "Mehr",
+        "REPLACE": "Ersetzen",
+        "SETTINGS": "Einstellungen",
+        "STAGING": "Staging",
+        "VIRTUAL CLEAN UP": "Virtuelle Entrümpelung"
+    },
+    "PANO ERRORS": {
+        "WRONG FILE TYPE": {
+            "TITLE": "Falsches Dateiformat",
+            "DESCRIPTION": "Eine der Dateien, die Sie hochladen möchten, entspricht nicht den erlaubten Dateiformaten (JPG, PNG). Bitte überprüfen Sie die Dateien und versuchen Sie es noch einmal."
+        },
+        "FILE TOO BIG": {
+            "TITLE": "Datei ist zu groß",
+            "DESCRIPTION": "Eine der Dateien, die Sie hochladen möchten, ist größer als die erlaubten 50 MB. Bitte überprüfen Sie die Dateien und versuchen Sie es noch einmal."
+        },
+        "INCORRECT ASPECT RATIO": {
+            "TITLE": "Falsches Seitenverhältnis",
+            "DESCRIPTION": "Eine der Dateien, die Sie hochladen möchten, hat ein falsches Seitenverhältnis. Das benötigte Seitenverhältnis ist 2:1. Bitte überprüfen Sie die Dateien und versuchen Sie es noch einmal."
+        }
+    },
+    "STAGING": {
+        "HEADLINE": "Staging",
+        "AFTER": "Nachher",
+        "BEFORE": "Vorher",
+        "ADD STAGING IMAGE": "Nachher-Bild hinzufügen",
+        "ORDER STAGING IMAGE": "Sie besitzen noch kein Nachher-Bild? Jetzt bestellen.",
+        "REPLACE STAGING IMAGE": "Nachher-Bild ersetzen",
+        "REMOVE STAGING IMAGE": "Nachher-Bild entfernen",
+        "STAGING IMAGE": "Nachher-Bild",
+        "VIRTUAL HOMESTAGING": "Virtuelles Homestaging"
+    },
+    "CONTINGENT TABLE": {
+        "HEADLINE": "Stellplatzverteilung",
+        "COLUMN": {
+            "TITLE": "Titel",
+            "TYPE": "Typ",
+            "STATE": "Status",
+            "CREATED AT": "Erstellt am",
+            "PANO CONTINGENT": "Standpunkte",
+            "TOUR CONTINGENT": "Stellplätze"
+        }
+    },
+    "TOUR STATE": {
+        "NEW": "Neu",
+        "ACTIVE": "Aktiv",
+        "ARCHIVE": "Archiv",
+        "BLOCKED": "Gesperrt",
+        "DELETED": "Gelöscht",
+        "INACTIVE": "Inaktiv",
+        "PENDING": "Ausstehend"
+    },
+    "TOUR TYPE": {
+        "DIY": "DIY",
+        "AUTOMATIC": "Auto"
+    }
+}

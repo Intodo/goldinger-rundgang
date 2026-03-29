@@ -1,0 +1,92 @@
+{
+    "MARKETING LIB": {
+        "ABORT": {
+            "TITLE": "Abbrechen",
+            "DESCRIPTION": "Möchten Sie den Download für die Grundrisse wirklich abbrechen?",
+            "OK": "Ja, abbrechen",
+            "CANCEL": "Nein, fortsetzen"
+        },
+        "AGREEMENT": {
+            "CHECKBOX": "Mir ist bewusst, dass im Rahmen der Beta-Testphase Maßabweichungen auftreten können. Dennoch möchte ich die Grundrisse mit Maßangaben herunterladen und akzeptiere die damit verbundenen Einschränkungen.",
+            "DESCRIPTION": "Das große Interesse an dieser Funktion freut uns sehr. Wir möchten jedoch darauf hinweisen, dass wir uns weiterhin in der Beta-Testphase befinden & der Algorithmus zurzeit noch Feinabstimmungen benötigt. Dies kann aktuell zu leichten bis mittleren Maßabweichungen führen. Wir arbeiten mit Hochdruck daran, diese Unregelmäßigkeiten zu beheben und danken Ihnen für Ihr Verständnis und Ihre Geduld in dieser Phase der Entwicklung.",
+            "TITLE": "Beta-Testphase"
+        },
+        "BANDEROLE": {
+            "DESC 1": "Sie haben die Möglichkeit, Ihre Exposéfotos mit einer ansprechenden Banderole zu versehen. Diese Banderole wird gekonnt auf dem Foto platziert und beinhaltet nützliche Informationen wie einen Hinweis zur 360°-Tour, den aussagekräftigen Titel sowie einen praktischen QR-Code. Letzterer erleichtert es Interessenten, direkt zur 360°-Tour zu gelangen.",
+            "DESC 2": "Darüber hinaus bieten wir Ihnen die Option, die Banderole individuell zu gestalten – mit Ihrem Firmenlogo, den charakteristischen Farben Ihres Unternehmens und dem zuständigen Ansprechpartner.",
+            "DESC 3": "Die Banderole dient nicht nur der ästhetischen Aufwertung Ihrer Fotos, sondern auch als wirkungsvolles Instrument, um in diversen Portalen auf die 360°-Tour aufmerksam zu machen und dadurch Leads zu generieren.",
+            "DESC 4": "Entscheiden Sie sich für die Banderole, beinhaltet Ihr Download-Paket neben der Standard-JPG-Datei auch ein informatives PDF. Dieses PDF ist mit einem Hyperlink ausgestattet, der es Ihren Interessenten ermöglicht, mit nur einem Klick direkt in die 360°-Tour einzutauchen, ohne den QR-Code scannen zu müssen – eine komfortable und direkte Art der Interaktion.",
+            "SUBMIT": "Exposéfotos herunterladen"
+        },
+        "EXPOSE PHOTOS": {
+            "CAPTURE": "Aufnehmen",
+            "TITLE": "Exposéfotos",
+            "DESCRIPTION": "An dieser Stelle können Sie bis zu 25 Fotos hochladen oder direkt aus einer 360°-Tour generieren. Diese können optional mit einer personalisierten Banderole versehen werden.",
+            "OR": "oder",
+            "DRAG DROP": "Fotos via Drag & Drop hochladen",
+            "FROM TOUR": "Exposéfotos aus Tour erzeugen",
+            "ERRORS": {
+                "MAXIMUM EXPOSE PHOTOS TITLE": "Maximale Anzahl von Exposé-Fotos wird erreicht",
+                "MAXIMUM EXPOSE PHOTOS DESCRIPTION": "Entschuldigen Sie, aber Sie können zur Zeit nicht mehr als 25 Exposé-Fotos hochladen. Die Bilder werden hochgeladen bis die Grenze von 25 Bildern erreicht ist.",
+                "NO VALID FLOOR": "Bitte laden Sie zunächst ein Pano hoch."
+            },
+            "CONFIRM DELETE": {
+                "TITLE": "Exposéfotos löschen",
+                "TITLE 2": "Exposéfoto löschen",
+                "DESCRIPTION": "Möchten Sie die ausgewählten Exposéfotos wirklich löschen?",
+                "DESCRIPTION 2": "Möchten Sie das ausgewählte Exposéfoto wirklich löschen?"
+            },
+            "UPLOAD": "Hochladen",
+            "CAMERA CONTROLS": {
+                "EDGE CORRECTION DISABLED": "Der vertikale Winkel darf 30° nicht überschreiten",
+                "TOGGLE EDGE CORRECTION": "Sturz begradigen",
+                "RESET FOV": "Zoom zurücksetzen",
+                "LEVEL VIEW ANGLE": "Ausrichten"
+            }
+        },
+        "FLOOR": "Etage",
+        "FLOORPLANS": "Grundrisse",
+        "EDIT FLOORPLAN": "Grundriss bearbeiten",
+        "MARKETING": "Marketing",
+        "DESCRIPTION": "Profitieren Sie von der Option, Ihre Grundrisse nach Ihren persönlichen Anforderungen anzupassen und herunterzuladen.",
+        "MESSAGE 1": "Der Export nimmt in etwa 30 Sekunden pro Etage in Anspruch.\nBitte planen Sie eine durchschnittliche Wartezeit von zwei Minuten ein.",
+        "MESSAGE 2": "Leider steht für die ausgewählte 360° Tour kein Grundriss zur Verfügung.",
+        "MESSAGE 3": "Die Download-Funktion steht ausschließlich 360° Touren zur Verfügung, die nach dem 14.11.2023 erstellt bzw. in Auftrag gegeben wurden.",
+        "FORM": {
+            "BANDEROLE": "Banderole",
+            "COMPANY COLORS": "Firmenfarben",
+            "COMPANY LOGO": "Firmenlogo",
+            "CONTACT PERSON": "Ansprechpartner",
+            "DISCLAIMER": "Disclaimer (\"Exposéplan nicht maßstäblich\")",
+            "DOWNLOAD": "Grundrisse herunterladen",
+            "FACILITY": "Vorrichtungen (z.B. Dusche, Waschbecken)",
+            "FLOOR": "Etage",
+            "FURNISHING": "Einrichtung (z.B. Sofa, Deko)",
+            "LANDSCAPE": "Querformat",
+            "ORIENTATION": "Ausrichtung",
+            "PORTRAIT": "Hochformat",
+            "ROOM TAGS": "Raumbezeichnungen",
+            "SELECT FLOOR": "Etage auswählen",
+            "UNDER CONSTRUCTION": "Unter Bearbeitung",
+            "SCALEBAR": "Maße (Testphase)",
+            "FIT": "Auf Seite anpassen"
+        },
+        "ROOM": "Raum",
+        "TRAILER": {
+            "TITLE": "Video",
+            "BULLET 1": "Ideal für Facebook, LinkedIn, YouTube und Twitter. Dieses klassische Breitbildformat stellt sicher, dass Ihr Video auf diesen Plattformen professionell und ansprechend wirkt.",
+            "BULLET 2": "Perfekt für den Instagram Feed. Dieses Format sorgt dafür, dass Ihr Video im Feed hervorsticht und mehr Bildschirmfläche einnimmt.",
+            "BULLET 3": "Optimal für Instagram Stories & TikTok. Das Hochformat stellt sicher, dass Ihr Video den gesamten Bildschirm ausfüllt und die volle Aufmerksamkeit der Betrachter erhält",
+            "DESC 1": "Verleihen Sie Ihrer 360° Tour mehr Sichtbarkeit und beeindrucken Sie Ihre Zielgruppe auf verschiedenen Social Media Plattformen! Mit unserer neuen Funktion können Sie schnell und einfach ein kurzes Trailer-Video aus Ihrer 360° Tour erzeugen. Dieses Video eignet sich perfekt, um die Highlights Ihrer Tour zu präsentieren und mehr Aufmerksamkeit zu erregen.",
+            "DESC 2": "Um sicherzustellen, dass Ihr Trailer-Video optimal auf den verschiedenen Plattformen zur Geltung kommt, bieten wir Ihnen die Möglichkeit, das Video in verschiedenen Formaten herunterzuladen:",
+            "DESC 3": "Nutzen Sie diese Funktion, um Ihre 360° Tour zu präsentieren und noch mehr potenzielle Kunden zu erreichen. Erstellen Sie jetzt Ihren Trailer und teilen Sie ihn auf Ihren bevorzugten Social Media Kanälen!",
+            "DOWNLOAD ERROR": "Leider ist beim Erstellen des Videos ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+            "SUBMIT": "Video generieren und herunterladen",
+            "TIP": "<b>Tipp</b>: Der Download geht schneller, wenn Sie sich für ein einzelnes Format entscheiden. Die Generierung eines Formates nimmt voraussichtlich 1 Minute in Anspruch",
+            "WARN": "Leider ist für die ausgewählte 360°-Tour kein Video verfügbar, da hierzu ein veröffentlichtes Dollhouse erforderlich ist.",
+            "ERROR": "Leider ist für die ausgewählte 360°-Tour kein Video verfügbar, da hierfür eine veröffentlichte, im Status \"Aktiv\" befindliche 360°-Tour erforderlich ist. Möchten Sie die 360°-Tour veröffentlichen?",
+            "ACTIVATE NOW": "Jetzt aktivieren"
+        },
+        "UNDEFINED": "Unbenannt"
+    }
+}

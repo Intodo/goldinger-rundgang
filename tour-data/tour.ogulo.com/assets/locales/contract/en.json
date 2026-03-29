@@ -1,0 +1,34 @@
+{
+    "CONTRACT LIB": {
+        "ALERT": "Alert",
+        "CREATION": {
+            "HEADER": "Tour creation",
+            "DIY": "DIY",
+            "AUTO": "Automatic"
+        },
+        "CONTRACT ERRORS": {
+            "AUTOMATIC DESC": "It is not possible to select 'Tour creation' while 'Automatic' is deselected.",
+            "TOUR CREATION REQUIRED DESC": "It is not possible to deselect 'DIY' and 'Automatic' at the same time.",
+            "DIY CHECKED TITLE": "Action not possible!",
+            "DIY CHECKED ERROR": "Unfortunately, assigning a DIY contract is not possible for companies that are created after September 12, 2023, as we no longer offer this type of contract since that date."
+        },
+        "FEATURES": {
+            "HEADER": "Features",
+            "OWN DOMAIN": "Own domain",
+            "LIVE TRACKING": "Live tracking",
+            "PERMALINK": "Souvenir"
+        },
+        "CALCULATION": {
+            "HEADER": "Contingent calculation",
+            "POSITIONS": "Positions",
+            "START": "Start"
+        },
+        "CONTINGENT": {
+            "REACHED": {
+                "TITLE": "Contingent reached",
+                "DESC": "Your current contingent has been reached ({{ count }}/{{ max }} slots). <br><br> To remain flexible, you can still record the 360° tour and commission us. We will create the tour as usual. <br><br> In the meantime, you have the option to speak with our Success Team about an upgrade or to free up slots by deleting tours that are no longer needed. <br><br> <strong>Important</strong>: As soon as you free up contingent again through an upgrade or by deleting tours that are no longer needed, the new tour can be activated & the created floor plans, photos, videos, and other content can be used.",
+                "ERROR": "Your current contingent has been reached ({{ count }}/{{ max }} slots). Please contact us for an upgrade or delete existing tours to proceed."
+            }
+        }
+    }
+}

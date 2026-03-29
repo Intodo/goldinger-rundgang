@@ -1,0 +1,39 @@
+{
+    "USER LIB": {
+        "DATA PROTECTION": "Datenschutz",
+        "DELETE ACCOUNT": {
+            "BLOCKED TITLE": "Löschen des Profils nicht möglich",
+            "BLOCKED DESCRIPTION": "Da Sie derzeit der einzige Administrator in diesem Account sind, besteht für Sie keine Möglichkeit, Ihr eigenes Profil zu löschen. Ein solcher Schritt würde dazu führen, dass der Account ohne administrative Aufsicht bleibt, was möglicherweise zu Inkonsistenzen führen kann. Um dieses Problem zu umgehen, können Sie entweder einen anderen Kollegen zum Administrator ernennen oder einen neuen Administrator zum Account hinzufügen. Anschließend haben Sie die Möglichkeit, Ihr Profil zu löschen.",
+            "BLOCKED ALTERNATIVE": "Falls Sie die Zusammenarbeit gänzlich beenden möchten, haben Sie zudem die Option, die gesamte Firma zu löschen. Dies können Sie unter der Einstellung \"Account → Firma → 'Firma löschen'\" vornehmen.",
+            "GENERAL ERROR": "Ein Fehler ist aufgetreten",
+            "GENERAL ERROR DESCRIPTION": "Es tut uns leid, aber ein Fehler ist aufgetreten. Bitte schließen Sie den Dialog und probieren Sie es erneut.",
+            "GENERAL ERROR 10410": "Der Nutzer konnte nicht gefunden werden",
+            "GENERAL ERROR 10432": "Der Nutzer darf nicht gelöscht werden",
+            "GENERAL ERROR 10460": "Der letzte Admin darf nicht gelöscht werden",
+            "GENERAL ERROR UNKNOWN": "Ein unbekannter Fehler ist aufgetreten",
+            "GOODBYE CONFIRMED": "Der Server hat Ihre Löschanfrage bestätigt.",
+            "GOODBYE TITLE": "Schade, dass Sie uns verlassen!",
+            "GOODBYE DESCRIPTION": "Bitte beachten Sie, dass wir mit Prozess der unwiderruflichen Löschung Ihrer Daten beginnen, sobald unser Server Ihre Anfrage bestätigt. Die Dauer dieses Vorgangs ist abhängig von der Menge der zu löschenden Daten und kann daher variieren. Wir versichern Ihnen, dass wir mit größter Sorgfalt und im Einklang mit allen datenschutzrechtlichen Bestimmungen vorgehen.",
+            "GOODBYE DESCRIPTION 2": "Falls Sie in Zukunft wieder unsere Dienste in Anspruch nehmen möchten, würden wir uns freuen, Sie erneut willkommen heißen zu dürfen. Bei weiteren Fragen oder Anliegen stehen wir Ihnen selbstverständlich zur Verfügung.",
+            "GOODBYE WAIT": "Bitte warten Sie einen Moment bis unser Server Ihre Anfrage verarbeitet hat. Dies kann einige Sekunden dauern. Wir bitten um Ihre Geduld.",
+            "MAIN TITLE": "Löschen des Profils bestätigen",
+            "MAIN WARNING": "Achtung: Diese Aktion kann nicht rückgängig gemacht werden!",
+            "MAIN DESCRIPTION": "Bitte bestätigen Sie, dass Sie die dauerhafte und unwiderrufliche Löschung Ihres Accounts vornehmen möchten:",
+            "MAIN DESCRIPTION 2": "Beachten Sie, dass alle 360°-Touren, bei denen Sie aktuell als Ansprechpartner eingetragen sind, automatisch an ein Team-Mitglied Ihrer Wahl übertragen werden.",
+            "MAIN ERROR 1": "Die E-Mail-Adresse muss mit der Adresse Ihres Accounts übereinstimmen",
+            "MAIN ERROR 2": "Die E-Mail-Adresse wird benötigt, um die Löschung zu bestätigen",
+            "MAIN HINT": "Bestätigen Sie den Vorgang durch Eingabe Ihrer E-Mail-Adresse",
+            "MAIN SUBSTITUTE": "Touren übertragen an..."
+        },
+        "SUPPORT ACCESS": {
+            "ADVANCED ACCESS": "Erweiterter Support-Zugriff",
+            "BLOCKED ACCESS": "Zugriff verweigert",
+            "DESC 1": "Um Ihnen optimalen Support bieten zu können, bitten wir Sie um die Erlaubnis, auf Ihr Benutzerkonto zugreifen zu dürfen. Dieser Zugriff erfolgt ausschließlich zur Bearbeitung Ihres Support-Anliegens und unter strikter Einhaltung unserer Datenschutzrichtlinien. Weitere Informationen finden Sie in unseren",
+            "DESC 2": "Datenschutzrichtlinien für den erweiterten Support-Zugriff.",
+            "GRANTED ACCESS": "Zugriff gewährt",
+            "GRANT SUPPORT ACCESS CONFIRMATION": "Ich stimme zu, dass autorisierte Mitarbeiter der Ogulo GmbH Zugriff auf mein Kundenkonto haben, um meine Support-Anliegen zu bearbeiten. Ich verstehe, dass ich diese Zustimmung jederzeit widerrufen kann.",
+            "REVOKE SUPPORT ACCESS CONFIRMATION": "Ich widerspreche dem Zugriff autorisierter Mitarbeiter der Ogulo GmbH auf mein Kundenkonto. Ich verstehe, dass dadurch möglicherweise einige Support-Anliegen nicht vollständig bearbeitet werden können.",
+            "TITLE": "Support-Einstellungen"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "CONTRACT LIB": {
+        "ALERT": "Hinweis",
+        "CREATION": {
+            "HEADER": "Tour Creation",
+            "DIY": "DIY",
+            "AUTO": "Automatisch"
+        },
+        "CONTRACT ERRORS": {
+            "AUTOMATIC DESC": "Es ist nicht möglich \"Tourenerstellung\" anzuwählen, während \"Automatisch\" abgewählt ist.",
+            "TOUR CREATION REQUIRED DESC": "Es ist nicht möglich \"DIY\" und \"Automatisch\" gleichzeitig abzuwählen.",
+            "DIY CHECKED TITLE": "Vorgang nicht möglich!",
+            "DIY CHECKED ERROR": "Eine Zuweisung eines DIY-Vertrags ist für Unternehmen, die nach dem 12.09.2023 erstellt wurden, leider nicht möglich, da wir diese Vertragsform seit diesem Stichtag nicht mehr anbieten."
+        },
+        "FEATURES": {
+            "HEADER": "Features",
+            "OWN DOMAIN": "Eigene Domain",
+            "LIVE TRACKING": "Live-Tracking",
+            "PERMALINK": "Andenken"
+        },
+        "CALCULATION": {
+            "HEADER": "Stellplatzkalkulation",
+            "POSITIONS": "Standpunkte",
+            "START": "Start"
+        },
+        "CONTINGENT": {
+            "REACHED": {
+                "TITLE": "Kontingent ausgeschöpft",
+                "DESC": "Ihr aktuelles Kontingent ist ausgeschöpft ({{ count }}/{{ max }} Stellplätze). <br><br> Damit Sie dennoch flexibel bleiben, können Sie die 360° Tour trotzdem aufnehmen & bei uns beauftragen. Wir erstellen die Tour wie gewohnt. <br><br> Währenddessen haben Sie die Möglichkeit, mit unserem Success-Team über ein Upgrade zu sprechen oder Stellplätze freizugeben, indem Sie nicht mehr benötigte Touren löschen. <br><br> <strong>Wichtig</strong>: Sobald Sie durch ein Upgrade oder das Löschen nicht mehr benötigter Touren wieder Kontingent freigeben, können die neue Tour aktiviert & die erstellten Grundrisse, Fotos, Videos sowie weitere Inhalte genutzt werden.",
+                "ERROR": "Ihr aktuelles Kontingent ist ausgeschöpft ({{ count }}/{{ max }} Stellplätze). Bitte kontaktieren Sie uns für ein Upgrade oder löschen Sie bestehende Touren, um fortzufahren."
+            }
+        }
+    }
+}

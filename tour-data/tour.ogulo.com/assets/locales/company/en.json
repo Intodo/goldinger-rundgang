@@ -1,0 +1,27 @@
+{
+    "COMPANY LIB": {
+        "NAME": "Company Name",
+        "DELETE COMPANY": {
+            "DELETE": "Delete Company",
+            "HAS FUTURE EXPIRES DATA": "As there is a valid contract with Ogulo until {{ end_date }}, it is not possible to delete the company before expiration. Please contact our Success Team.",
+            "HAS VALID CONTRACT": "Since there is a valid contract with Ogulo, it is not possible to delete the company. Please contact our Success Team.",
+            "MAIN TITLE": "Confirm Company Deletion",
+            "MAIN TITLE 2": "Company Deletion Not Possible",
+            "MAIN DESCRIPTION": "Please confirm that you want to permanently and irreversibly delete the company {{company_name}}. Note that {{count_tours}} tours, {{count_visitors}} visitors, and {{count_team_members}} team members will be irreversibly deleted!",
+            "MAIN ERROR 1": "The name must match the company name of your account",
+            "MAIN ERROR 2": "The company name is required to confirm deletion",
+            "MAIN HINT": "Confirm the operation by entering your company name.",
+            "MAIN WARNING": "Warning: This action cannot be undone!"
+        },
+        "ERRORS": {
+            "GENERAL ERROR": "An error occurred",
+            "GENERAL ERROR DESC": "We're sorry, but an error occurred. Please close the dialog and try again.",
+            "GENERAL ERROR 11400": "Company not found",
+            "GENERAL ERROR 11400 DESC": "Sorry, but we couldn't find this company. Please try again.",
+            "GENERAL ERROR 11432": "Company cannot be deleted",
+            "GENERAL ERROR 11432 DESC": "Sorry, but you do not have the necessary permissions to delete the company.",
+            "GENERAL ERROR 11460": "Company cannot be deleted",
+            "GENERAL ERROR 11460 DESC": "Sorry, but you have an active contract and are not allowed to delete the company. Please contact our support."
+        }
+    }
+}

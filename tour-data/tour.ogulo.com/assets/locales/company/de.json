@@ -1,0 +1,27 @@
+{
+    "COMPANY LIB": {
+        "NAME": "Firmenname",
+        "DELETE COMPANY": {
+            "DELETE": "Firma löschen",
+            "HAS FUTURE EXPIRES DATA": "Da bis zum {{ end_date }} ein gültiger Vertrag mit Ogulo existiert, besteht vor Ablauf keine Möglichkeit, die Firma zu löschen. Bitte wenden Sie sich an unser Success-Team.",
+            "HAS VALID CONTRACT": "Da ein gültiger Vertrag mit Ogulo existiert, besteht keine Möglichkeit, die Firma zu löschen. Bitte wenden Sie sich an unser Success-Team.",
+            "MAIN TITLE": "Löschen der Firma bestätigen",
+            "MAIN TITLE 2": "Löschen der Firma nicht möglich",
+            "MAIN DESCRIPTION": "Bitte bestätigen Sie, dass Sie die dauerhafte und unwiderrufliche Löschung der Firma {{company_name}} vornehmen möchten. Beachten Sie, dass u.a. {{count_tours}} Touren, {{count_visitors}} Interessenten und {{count_team_members}} Team-Mitglieder unwiderruflich gelöscht werden!",
+            "MAIN ERROR 1": "Der Name muss mit dem Firmennamen Ihres Accounts übereinstimmen",
+            "MAIN ERROR 2": "Der Firmenname wird benötigt, um die Löschung zu bestätigen",
+            "MAIN HINT": "Bestätigen Sie den Vorgang durch Eingabe Ihres Firmennamens.",
+            "MAIN WARNING": "Achtung: Diese Aktion kann nicht rückgängig gemacht werden!"
+        },
+        "ERRORS": {
+            "GENERAL ERROR": "Ein Fehler ist aufgetreten",
+            "GENERAL ERROR DESC": "Es tut uns leid, aber ein Fehler ist aufgetreten. Bitte schließen Sie den Dialog und probieren Sie es erneut.",
+            "GENERAL ERROR 11400": "Firma nicht gefunden",
+            "GENERAL ERROR 11400 DESC": "Entschuldigen Sie, aber wir konnten diese Firma nicht finden. Bitte versuchen Sie es erneut.",
+            "GENERAL ERROR 11432": "Firma darf nicht gelöscht werden",
+            "GENERAL ERROR 11432 DESC": "Entschuldigen Sie, aber Sie besitzen nicht die nötigen Rechte, die Firma zu löschen.",
+            "GENERAL ERROR 11460": "Firma darf nicht gelöscht werden",
+            "GENERAL ERROR 11460 DESC": "Entschuldigen Sie, aber Sie besitzen einen laufenden Vertrag und dürfen die Firma nicht löschen. Bitte wenden Sie sich an unseren Support."
+        }
+    }
+}

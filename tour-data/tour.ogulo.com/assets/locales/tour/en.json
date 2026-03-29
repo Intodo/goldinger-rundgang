@@ -1,0 +1,101 @@
+{
+    "IMAGE EDITOR": {
+        "BRIGHTNESS": "Brightness",
+        "BRUSH SIZE": "Brush Size",
+        "BRUSH SHAPE": "Brush Shape",
+        "CONTRAST": "Contrast",
+        "ERRORS": {
+            "CONTEXT LOST": "WebGL context lost. Please reload the page. Probably your image is too large.",
+            "ERROR WHILE SAVING": "Error while saving image. Please try again. Probably your image is too large.",
+            "ERROR WHILE CREATING TILES": "Error while visualizing the image. Please try again. Probably your image is too large.",
+            "GL NOT AVAILABLE": "Your browser does not support WebGL. Please use a different browser.",
+            "IMAGE TOO LARGE": "Sorry, but your image is too large. Max supported size of our system on your PC is {{maxTextureSize}}px in each dimension. Your image is {{imageWidth}}x{{imageHeight}}px."
+        },
+        "GREEN": "Green",
+        "IMAGE EDITOR": "Image Editor",
+        "RESET": "Reset",
+        "RETOUCHING": "Retouching",
+        "RETOUCHING WARNING": "Click into the panorama and draw a polygon around the area you want to blur. Complete the selection with a double-click. After clicking Save, the blurring will be processed server-side and will be visible in approximately 2-3 minutes. <!-- <a href=\"http://example.com\" target=\"_blank\">Learn more</a> -->",
+        "RETOUCHING UNSAVED CHANGES": "You have unsaved changes. Do you want to delete them?",
+        "RETOUCHING START": "Your pixelation is being processed by our servers. The result will be available to all users in a few minutes.",
+        "RETOUCHING ERROR": "An error occurred while processing the image pixelation.",
+        "SATURATION": "Saturation",
+        "SAVE": "Save",
+        "WARM COLD": "Warm/Cold"
+    },
+    "MEASUREMENT": {
+        "AGREEMENT": "I am aware that dimensional deviations may occur during the beta test phase. Nevertheless, I would like to activate the 360° tour with dimensions and accept the associated restrictions",
+        "CALCULATED NODALHEIGHT": "The following nodal point height is automatically taken from the specified reference measurement",
+        "MEASUREMENT TOOL": "Measurement Tool",
+        "REVERSE": "In order to perform a measurement within Ogulo, we need a suitable reference value. This is usually composed of the camera height (nodal point). If you do not know the height of the nodal point, we can easily calculate it based on your reference measurement. To do this, please correct the value of your measurement. If you do not know the measurement of the reference measurement, we ask you to use a measurement that you can easily determine, e.g. door width/height, bed, window or similar.",
+        "REFERENCE": "Reference measurement",
+        "REFERENCE TOO BIG": "The reference measurement is too big",
+        "REFERENCE TOO SMALL": "The reference measurement is too small",
+        "SAVE": "Save nodal height",
+        "SPECIFY MEASUREMENT": "Please enter the correct value of your reference measurement made earlier",
+        "NODALHEIGHT TOO BIG": "The nodal height is too big",
+        "NODALHEIGHT TOO SMALL": "The nodal height is too small",
+        "WARNING": "Info: The dimensions shown may differ from the actual dimensions on site. Horizontal measurement is only possible on the floor. Vertical measurement must start on the floor.",
+        "WARNING 2": "The adjustment is made exclusively for the selected position."
+    },
+    "PANO EDITOR": {
+        "DELETE": "Delete",
+        "DOWNLOAD": "Download",
+        "FAIR WEATHER": "Fair Weather",
+        "IMAGE EDITOR": "Image Editor",
+        "MORE": "More",
+        "REPLACE": "Replace",
+        "SETTINGS": "Settings",
+        "STAGING": "Staging",
+        "VIRTUAL CLEAN UP": "Virtual Clean Up"
+    },
+    "PANO ERRORS": {
+        "WRONG FILE TYPE": {
+            "TITLE": "Wrong Input File",
+            "DESCRIPTION": "One of the files you intend to upload is not one of the permitted file types (JPG, PNG). Please check and try again."
+        },
+        "FILE TOO BIG": {
+            "TITLE": "File too big",
+            "DESCRIPTION": "One of the files you intend to upload is larger than 50 MB. Please check the files and try again."
+        },
+        "INCORRECT ASPECT RATIO": {
+            "TITLE": "Incorrect Aspect Ratio",
+            "DESCRIPTION": "One of the files you intend to upload has a wrong aspect ratio. The required aspect ratio is 2:1. Please check and try again"
+        }
+    },
+    "STAGING": {
+        "HEADLINE": "Staging",
+        "AFTER": "After",
+        "BEFORE": "Before",
+        "ADD STAGING IMAGE": "Add After Staging Image",
+        "ORDER STAGING IMAGE": "You don't have an after staging image yet? Order now.",
+        "REPLACE STAGING IMAGE": "Replace After Staging Image",
+        "REMOVE STAGING IMAGE": "Remove After Staging Image",
+        "STAGING IMAGE": "After Staging Image",
+        "VIRTUAL HOMESTAGING": "Virtual Homestaging"
+    },
+    "CONTINGENT TABLE": {
+        "HEADLINE": "Contingent Distribution",
+        "COLUMN": {
+            "TITLE": "Title",
+            "TYPE": "Type",
+            "STATE": "State",
+            "CREATED AT": "Created at",
+            "PANO CONTINGENT": "View points",
+            "TOUR CONTINGENT": "Contingent usage"
+        }
+    },
+    "TOUR STATE": {
+        "NEW": "New",
+        "ACTIVE": "Active",
+        "ARCHIVE": "Archive",
+        "BLOCKED": "Blocked",
+        "DELETED": "Deleted",
+        "INACTIVE": "Inactive",
+        "PENDING": "Pending"
+    },
+    "TOUR TYPE": {
+        "DIY": "DIY",
+        "AUTOMATIC": "Auto"
+    }
+}

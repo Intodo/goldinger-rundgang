@@ -1,0 +1,92 @@
+{
+    "MARKETING LIB": {
+        "ABORT": {
+            "TITLE": "Cancel",
+            "DESCRIPTION": "Do you really want to cancel the download for the floor plans?",
+            "OK": "Yes, cancel",
+            "CANCEL": "No, continue"
+        },
+        "AGREEMENT": {
+            "CHECKBOX": "I am aware that during the beta testing phase, dimensional variations may occur. Nevertheless, I would like to download the floor plans with measurements and accept the associated limitations.",
+            "DESCRIPTION": "We are delighted by the great interest in this feature. However, we would like to point out that we are still in the beta testing phase, and the algorithm currently requires fine-tuning. This may currently result in slight to moderate dimensional variations. We are working diligently to address these irregularities and appreciate your understanding and patience during this phase of development.",
+            "TITLE": "Beta Testing Phase"
+        },
+        "BANDEROLE": {
+            "DESC 1": "You have the option to enhance your property photos with an attractive banderole. This banderole is skillfully placed on the photo and includes useful information such as a note about the 360° tour, the meaningful title, and a practical QR code. The latter makes it easier for interested parties to access the 360° tour directly.",
+            "DESC 2": "Furthermore, we offer you the option to customize the banderole - with your company logo, the characteristic colors of your company, and the relevant contact person.",
+            "DESC 3": "The banderole not only serves to aesthetically enhance your photos but also as an effective tool to draw attention to the 360° tour on various portals, thereby generating leads.",
+            "DESC 4": "If you opt for the banderole, your download package includes not only the standard JPG file but also an informative PDF. This PDF is equipped with a hyperlink that allows your prospects to dive directly into the 360° tour with just one click, without having to scan the QR code - a convenient and direct form of interaction.",
+            "SUBMIT": "Download Promotion Images"
+        },
+        "EXPOSE PHOTOS": {
+            "CAPTURE": "Capture",
+            "TITLE": "Exposé photos",
+            "DESCRIPTION": "At this point you can upload up to 25 photos or generate them directly from a 360° tour. These can optionally be provided with a personalized banderole.",
+            "OR": "or",
+            "DRAG DROP": "Upload photos via drag & drop",
+            "FROM TOUR": "Create exposé photos from tour",
+            "ERRORS": {
+                "MAXIMUM EXPOSE PHOTOS TITLE": "Maximum number of exposé photos is reached",
+                "MAXIMUM EXPOSE PHOTOS DESCRIPTION": "Sorry, but you cannot currently upload more than 25 exposure photos. The images will be uploaded until the limit of 25 images is reached.",
+                "NO VALID FLOOR": "Please upload a pano first."
+            },
+            "CONFIRM DELETE": {
+                "TITLE": "Delete exposé photos",
+                "TITLE 2": "Delete exposé photo",
+                "DESCRIPTION": "Do you really want to delete the selected exposé photos?",
+                "DESCRIPTION 2": "Do you really want to delete the selected exposé photo?"
+            },
+            "UPLOAD": "Upload",
+            "CAMERA CONTROLS": {
+                "EDGE CORRECTION DISABLED": "The vertical angle must not exceed 30°",
+                "TOGGLE EDGE CORRECTION": "Straighten edges",
+                "RESET FOV": "Reset",
+                "LEVEL VIEW ANGLE": "Level"
+            }
+        },
+        "FLOOR": "Floor",
+        "FLOORPLANS": "Floor Plans",
+        "EDIT FLOORPLAN": "Edit Floor Plan",
+        "MARKETING": "Marketing",
+        "DESCRIPTION": "Benefit from the option to customize and download your floor plans according to your personal requirements.",
+        "MESSAGE 1": "The export takes about 30 seconds of time per floor.\nPlease expect an average wait time of approximately two minutes.\n\n",
+        "MESSAGE 2": "Unfortunately, there is no floor plan available for the selected 360° tour.",
+        "MESSAGE 3": "The download function is available exclusively for 360° tours created or commissioned after 14th November 2023.",
+        "FORM": {
+            "BANDEROLE": "Banderole",
+            "COMPANY COLORS": "Company Colors",
+            "COMPANY LOGO": "Company Logo",
+            "CONTACT PERSON": "Contact Person",
+            "DISCLAIMER": "Disclaimer ('Floor plan not to scale')",
+            "DOWNLOAD": "Download Floor Plans",
+            "FACILITY": "Facilities (e.g., shower, sink)",
+            "FLOOR": "Floor",
+            "FURNISHING": "Furnishing (e.g., sofa, decor)",
+            "LANDSCAPE": "Landscape",
+            "ORIENTATION": "Orientation",
+            "PORTRAIT": "Portrait",
+            "ROOM TAGS": "Room Labels",
+            "SELECT FLOOR": "Select Floor",
+            "UNDER CONSTRUCTION": "Under Construction",
+            "SCALEBAR": "Dimensions (trial period)",
+            "FIT": "Fit to Page"
+        },
+        "ROOM": "Room",
+        "TRAILER": {
+            "TITLE": "Video",
+            "BULLET 1": "Ideal for Facebook, LinkedIn, YouTube, and Twitter. This classic widescreen format ensures that your video looks professional and engaging on these platforms.",
+            "BULLET 2": "Perfect for the Instagram Feed. This format ensures that your video stands out in the feed and takes up more screen space.",
+            "BULLET 3": "Optimal for Instagram Stories & TikTok. The portrait format ensures that your video fills the entire screen and captures the full attention of viewers.",
+            "DESC 1": "Give your 360° tour more visibility and impress your target audience on various social media platforms! With our new feature, you can quickly and easily create a short trailer video from your 360° tour. This video is perfect for showcasing the highlights of your tour and attracting more attention.",
+            "DESC 2": "To ensure that your trailer video looks its best on different platforms, we offer you the option to download the video in various formats:",
+            "DESC 3": "Use this feature to present your 360° tour and reach even more potential customers. Create your trailer now and share it on your preferred social media channels!",
+            "DOWNLOAD ERROR": "Unfortunately, an error occurred while creating the video. Please try again.",
+            "SUBMIT": "Generate and download video",
+            "TIP": "<b>Tip</b>: The download is faster if you choose a single format. Generating one format takes approximately 1 minute.",
+            "WARN": "Unfortunately, no video is available for the selected 360° tour, as a published dollhouse is required for this.",
+            "ERROR": "Unfortunately, there is no video available for the selected 360° tour as it requires a published 360° tour that is in active status. Would you like to publish the 360° tour?",
+            "ACTIVATE NOW": "Activate now"
+        },
+        "UNDEFINED": "Undefined"
+    }
+}

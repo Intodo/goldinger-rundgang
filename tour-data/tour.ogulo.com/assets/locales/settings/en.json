@@ -1,0 +1,50 @@
+{
+    "SETTINGS LIB": {
+        "DELETE SETTINGS": "Delete Settings",
+        "OAUTH2": {
+            "AGENT ERROR": "NOTE: You must be a Co-Admin or Admin to edit the OAuth 2.0 settings.",
+            "TITLE": "OAuth 2.0",
+            "DELETE CANCEL": "Cancel",
+            "DELETE CONFIRM": "Delete",
+            "DELETE CONFIRM TITLE": "Delete OAuth 2.0 Settings",
+            "DELETE CONFIRM DESC": "Are you sure you want to delete the OAuth 2.0 settings? This action cannot be undone.",
+            "DESC": "By adding OAuth 2.0 SSO to your account, a centralized login procedure is established, enabling your employees to securely log in with existing credentials. This simplifies the access process and increases security by reducing the need to manage and remember multiple passwords. Please note that this feature is specifically designed for organizations that require comprehensive control and customization of their authentication processes. Implementing and managing OAuth 2.0 SSO requires technical understanding.",
+            "APPLICATION": {
+                "TITLE": "Application",
+                "DESC": "The Application is the internal area where you manage, among other things, 360° tours and prospects. The Application is accessible via the web at app.ogulo.com or through the Mobile App.",
+                "ENABLE_LABEL": "Enable OAuth SSO for Application",
+                "FORCE_LABEL": "Enforce OAuth SSO for Application*",
+                "CAPTION": "*Enabling this will deactivate the conventional login process, requiring everyone on your team to go through the OAuth SSO authentication process. This setting is recommended if all team members have a centralized login procedure."
+            },
+            "VIEWER": {
+                "TITLE": "Viewer",
+                "DESC": "The Viewer is the 360° tour where the virtual viewing takes place. The Viewer is accessible via the web at https://tour.ogulo.com/**** or optionally through your own domain.",
+                "ENABLE_LABEL": "Enable OAuth SSO for Viewer",
+                "FORCE_LABEL": "Enforce OAuth SSO for Viewer*",
+                "CAPTION": "*Enabling this will deactivate the conventional login process, requiring everyone on your team to go through the OAuth SSO authentication process. Important! This setting is only recommended if only team members with a centralized login procedure are allowed to access password-protected 360° tours. This will exclude external prospects by enabling it."
+            },
+            "CALLBACK": {
+                "TITLE": "Callback",
+                "DESC": "The connection requires a callback URL so that links can be reestablished when necessary. This ensures continuous and secure communication within the system."
+            },
+            "INSTALLATION": {
+                "TITLE": "Setup",
+                "AUTHORIZATION_URI": "Authorization URI",
+                "AUTHORIZATION_URI_DESC": "Users are redirected to the Authorization URI page when they click on 'Log in with company SSO'",
+                "CLAIM": "Claim Field",
+                "CLAIM_DESC": "This field specifies under which claim the users' email addresses are stored with the OAuth provider. Most providers use 'email'",
+                "CLIENT_ID": "Client ID",
+                "CLIENT_ID_DESC": "Unique identifier we use together with the Client Secret to securely authenticate with your OAuth service",
+                "CLIENT_SECRET": "Client Secret",
+                "CLIENT_SECRET_DESC": "Secret key we use together with the Client ID to securely authenticate with your OAuth service",
+                "SCOPES": "Scopes",
+                "SCOPES_DESC": "This field specifies how the user's information is transmitted. With many OAuth providers, the value is \"openid, email\"",
+                "TOKEN_URI": "Token URI",
+                "TOKEN_URI_DESC": "Ogulo calls this endpoint to obtain a token to verify that the entered access data is correct"
+            },
+            "TOGGLE HINT": "Please fill in all required fields under 'Setup' to activate OAuth 2.0",
+            "TOGGLE HINT 2": "Please fill in all required fields under 'Setup' to activate OAuth 2.0 and activate SSO for the Application",
+            "TOGGLE HINT 3": "Please fill in all required fields under 'Setup' to activate OAuth 2.0 und activate SSO for the Viewer"
+        }
+    }
+}

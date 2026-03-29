@@ -1,0 +1,39 @@
+{
+    "USER LIB": {
+        "DATA PROTECTION": "Data Protection",
+        "DELETE ACCOUNT": {
+            "BLOCKED TITLE": "Deletion of Profile Not Possible",
+            "BLOCKED DESCRIPTION": "As you are currently the sole administrator in this account, there is no way for you to delete your own profile. Such a step would leave the account without administrative supervision, which may lead to inconsistencies. To work around this issue, you can either appoint another colleague as an administrator or add a new administrator to the account. Afterward, you will have the option to delete your profile.",
+            "BLOCKED ALTERNATIVE": "If you wish to terminate collaboration entirely, you also have the option to delete the entire company. You can do this under the setting 'Account → Company → 'Delete Company''.",
+            "GENERAL ERROR": "An Error Occurred",
+            "GENERAL ERROR DESCRIPTION": "We apologize, but an error has occurred. Please close the dialogue and try again.",
+            "GENERAL ERROR 10410": "User not found",
+            "GENERAL ERROR 10432": "User cannot be deleted",
+            "GENERAL ERROR 10460": "The last admin cannot be deleted",
+            "GENERAL ERROR UNKNOWN": "An unknown error occurred",
+            "GOODBYE CONFIRMED": "The server has confirmed your deletion request.",
+            "GOODBYE TITLE": "Sorry to See You Go!",
+            "GOODBYE DESCRIPTION": "Please note that we will begin the process of irrevocably deleting your data as soon as our server confirms your request. The duration of this process depends on the amount of data to be deleted and may vary. We assure you that we proceed with the utmost care and in accordance with all data protection regulations.",
+            "GOODBYE DESCRIPTION 2": "If you decide to use our services again in the future, we would be happy to welcome you back. If you have any further questions or concerns, we are at your disposal.",
+            "GOODBYE WAIT": "Please wait a moment until our server has processed your enquiry. This may take a few seconds. We ask for your patience.",
+            "MAIN TITLE": "Confirm Profile Deletion",
+            "MAIN WARNING": "Caution: This action cannot be undone!",
+            "MAIN DESCRIPTION": "Please confirm that you want to perform the permanent and irreversible deletion of your account:",
+            "MAIN DESCRIPTION 2": "Note that all 360° tours for which you are currently listed as a contact will be automatically transferred to a team member of your choice.",
+            "MAIN ERROR 1": "The email address must match the address of your account",
+            "MAIN ERROR 2": "The email address is required to confirm deletion",
+            "MAIN HINT": "Confirm the process by entering your email address",
+            "MAIN SUBSTITUTE": "Transfer tours to..."
+        },
+        "SUPPORT ACCESS": {
+            "ADVANCED ACCESS": "Advanced Support Access",
+            "BLOCKED ACCESS": "Access Denied",
+            "DESC 1": "To provide you with optimal support, we ask for your permission to access your user account. This access is used exclusively to process your support request and in strict compliance with our data protection policies. Further information can be found in our",
+            "DESC 2": "Privacy Policy for Advanced Support Access.",
+            "GRANTED ACCESS": "Access Granted",
+            "GRANT SUPPORT ACCESS CONFIRMATION": "I agree that authorized employees of Ogulo GmbH may access my customer account to handle my support requests. I understand that I can revoke this consent at any time.",
+            "REVOKE SUPPORT ACCESS CONFIRMATION": "I object to authorized employees of Ogulo GmbH accessing my customer account. I understand that as a result, some support requests may not be fully processed.",
+            "TITLE": "Support Settings"
+        }
+    }
+}

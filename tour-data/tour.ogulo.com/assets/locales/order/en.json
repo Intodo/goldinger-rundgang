@@ -1,0 +1,66 @@
+{
+    "AUTO TOUR CREATION": {
+        "THANK YOU FOR YOU INTEREST": "Thank you for your interest!",
+        "THIS IS A PAID FEATURE": "This tool is a paid add-on feature. If you would like to add it to your existing contract or have any questions, please feel free to contact us.",
+        "BANNER": "You are authorized to use \"Automatic Tour Creation.\" Order now"
+    },
+    "AUTOMATIC": {
+        "CHANGES IN TOUR ORDER PROCESS": "Changes in the tour order process for automatic tour creation",
+        "DO NOT SHOW AGAIN": "Do not show this message again",
+        "HEADLINE": "Automatic Tour Creation",
+        "DISABLED": "Tour is already being created automatically.",
+        "TESTIMONIAL": {
+            "HEAD OF SALES": "Head of Sales",
+            "HEADLINE": "We create the tours for you!",
+            "LABEL": "Info",
+            "QUOTE": "The virtual property viewing from Ogulo is an integral part of the digital object marketing of Postbank Immobilien. The \"Automatic Tour Creation\" is particularly interesting for us.\n\nWith Ogulo's central creation of the 360° tour, our agents only have to take the pictures and submit a technical order with support. Everything else is taken care of by Ogulo.\n\nThis way, our agents have more time for the essentials: getting new brokerage orders and marketing properties."
+        },
+        "ORDER OVERVIEW": {
+            "BENEFIT 1": "Professional Image Editing",
+            "BENEFIT 2": "Retouching (License Plates, People, etc.)",
+            "BENEFIT 3": "Immersive dollhouse view",
+            "BENEFIT 4": "Customizable floor plans",
+            "CANCEL": "Cancel",
+            "COMMENT": "Comment",
+            "COMMENT ERROR": "Your comment should be less than 1000 characters.",
+            "HEADLINE 1": "Your Advantage",
+            "HEADLINE 2": "Prices",
+            "LABEL": "Order Overview",
+            "ORDER": "Order Now"
+        },
+        "CONFIRMATION": {
+            "DESCRIPTION": "We have sent you a confirmation email. Please check your inbox.",
+            "HEADLINE": "Thank you for your order",
+            "LABEL": "Confirmation",
+            "CLOSE": "Close"
+        }
+    },
+    "CANCEL ORDER": {
+        "TITLE": "Cancel Order",
+        "DESCRIPTION": "Do you really want to cancel the order? Your previous entries will be deleted."
+    },
+    "DIY": {
+        "TOUR WILL BE CREATED": "One moment please. The tour is being generated."
+    },
+    "ORDER COMMON": {
+        "BACK": "Back",
+        "HIDE": "Do not show again",
+        "NEXT": "Next",
+        "OK": "Ok"
+    },
+    "ORDER ERRORS": {
+        "MAXIMUM TOUR CONTINGENT": "Maximum contingent reached",
+        "MAXIMUM TOUR CONTINGENT DESC": "Sorry, but you have reached your maximum contingent for tours. Please upgrade your account to increase your quota or contact your admin.",
+        "CONTRACT NOT ACTIVE OR VALID": "Not allowed",
+        "CONTRACT NOT ACTIVE OR VALID DESC": "Sorry, but your contract has been cancelled or has expired.",
+        "UNKNOWN ERROR": "Unknown Error",
+        "UNKNOWN ERROR DESC": "Unfortunately, this did not work. Please try again or contact our support.",
+        "UNKNOWN GENERAL ERROR": "An error occurred during the order process. Please close the dialogue and start again."
+    },
+    "SELECTION": {
+        "DESCRIPTION": "How do you want to create a virtual tour with Ogulo?",
+        "HEADLINE": "Type of Creation",
+        "AUTOMATIC": "Send us your 360° panoramic photos and we'll create your tour.\nI've already taken panoramic photos on site and now want to link them to a 360° tour using Ogulo's graphic designers.\n(This service includes post-processing of photos",
+        "DIY": "I have already taken panoramic photos on site and now I want to link them together to create a 360° tour on my own."
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "BACKGROUND": "Background image",
+    "BACK": "Back",
+    "CONNECT LOGIN": {
+        "DISCLAIMER": {
+            "CHECK": "I allow {{ provider }} to access my Ogulo account",
+            "SUCCESS": "Connection successful",
+            "SUCCESS DESC": "You have been successfully linked. This window will close in a few seconds.",
+            "PERMISSION DESC 1": "{{ provider }} would like to access your Ogulo account",
+            "PERMISSION DESC 2": "By doing so, {{ provider }} will temporarily have the ability to:",
+            "PERMISSIONS": {
+                "P1": "360° tours: ",
+                "P2": "Leads: ",
+                "P3": "User accounts: ",
+                "P4": "Account settings: ",
+                "P5": "Profile settings: ",
+                "P6": "Orders: ",
+                "CAN ALL": "create, edit, and delete",
+                "CAN SHOW AND REFACTOR": "view and edit"
+            },
+            "REVOKE": "You can revoke these permissions at any time in your profile."
+        },
+        "ERROR": {
+            "TITLE": "Error",
+            "DESC": "Please provide a valid client ID in the URL"
+        },
+        "FOOTER": {
+            "PARTNER": "{{ provider }} is an Ogulo authorized partner.",
+            "SECURE": "The connection is established securely and encrypted."
+        }
+    },
+    "ONBOARDING CONNECT": {
+        "APPLE": "Connect with Apple",
+        "COMPANY": "Connect with company SSO",
+        "COMPANY SSO": "Company SSO",
+        "CONNECT ERROR 1": "Unfortunately, a connection is not possible because company SSO is enforced for your company.",
+        "CONNECT ERROR 2": "Unfortunately, a connection is not possible because compay SSO is not configured for your company.",
+        "DESCRIPTION": "Please log in once with your existing Ogulo account to establish the link.",
+        "HEADLINE": "Link existing Ogulo account",
+        "GOOGLE": "Connect with Google",
+        "OGULO": "Connect"
+    },
+    "EMAIL": "Email",
+    "ONBOARDING ERRORS": {
+        "DEFAULT": "An error occurred while logging in with the Schwarz Gruppe SSO.",
+        "EMAIL NOT FOUND": "Email is not found",
+        "EMAIL NOT FOUND DESC": "The email has not yet been deposited with us.",
+        "INVALID EMAIL": "Email is not valid",
+        "INVALID SCHWARZ ACCESS TOKEN": "Unfortunately, you do not have the necessary rights to use the Ogulo account.",
+        "INVALID SCHWARZ USER INFOS": "No valid information has been provided for the user.",
+        "LOGIN FAILED": "Login failed",
+        "LOGIN FAILED DESC": "Email address or password are incorrect. Please check your inputs.",
+        "MAXIMUM TEAM CONTINGENT": "You have reached your maximum broker quota.",
+        "MAXIMUM TEAM CONTINGENT DESC": "We're sorry, but you have reached your maximum quota. Please upgrade your account to increase your quota or contact your admin. You can still log in with an existing Ogulo account.",
+        "NO SCHWARZ EMPLOYEE": "The user can not be found.",
+        "ONOFFICE ERROR": "Error from OnOffice",
+        "ONOFFICE ERROR DESC": "Your API key did not have enough permissions to perform the synchronization with OnOffice. Please contact OnOffice support.",
+        "ONOFFICE SIGNATURE": "OnOffice signature failed",
+        "ONOFFICE SIGNATURE DESC": "The OnOffice signature verification failed. Please try again or contact support.",
+        "REQUIRED EMAIL": "Email is required",
+        "REQUIRED PASSWORD": "Password is required",
+        "SSO LOGIN FAILED": "Login failed",
+        "SSO LOGIN FAILED DESC": "You have not registered with us yet via SSO or linked your account.",
+        "USER NOT FOUND": "Account not found",
+        "USER NOT FOUND DESC": "You have not registered with us yet.",
+        "UNKNOWN": "Unknown error",
+        "UNKNOWN DESC": "An unknown error has occurred. Please reload the page and try again."
+    },
+    "ONBOARDING LOGIN": {
+        "APPLE": "Login with Apple",
+        "BY": "Login to {{company}}",
+        "BACK TO LOGIN": "Back To Login",
+        "CREATE ACCOUNT": "Create user account",
+        "COMPANY": "Log in with company SSO",
+        "CONTINUE": "Continue",
+        "EMAIL LABEL": "Email",
+        "FORGET PASSWORD": "Forgot password?",
+        "FORM HEADLINE": "Log in with email address",
+        "GOOGLE": "Login with Google",
+        "OGULO": "Login",
+        "NEW PASSWORD": "Send new password",
+        "NO ACCOUNT": "No user account?",
+        "PASSWORD LABEL": "Password",
+        "PASSWORD RESET": "Reset password",
+        "PASSWORD RESET SUCCESS": "Your password has been reset and sent to your email address. Please check your mailbox.",
+        "SSO HEADLINE": "Login in with SSO",
+        "WELCOME": "Welcome! Log in now \uD83D\uDC4B"
+    },
+    "LOGO": "Logo of the Ogulo GmbH",
+    "OK": "Ok",
+    "OR": "Or",
+    "ONOFFICE": {
+        "FORGOT PASSWORD DIALOG": "Please enter your email here. You will receive an email from us to reset your password.",
+        "LOGIN ONCE": "Please log in once with your existing Ogulo account to create the link.",
+        "LOGIN WITH EXISTING USER": "Link existing Ogulo account",
+        "PASSWORD SENT": "Your password has been reset. Please check your mailbox.",
+        "REGISTER": {
+            "ADD": "Hinzufügen",
+            "FIRSTNAME": "Firstname",
+            "LASTNAME": "Lastname",
+            "PASSWORD": "Password",
+            "REGISTER NEW USER": "Add new user",
+            "REGISTER NEW USER TO COMPANY": "Register at Ogulo, to be added to your company '{{companyName}}'.",
+            "THE BEST INVESTMENT": "Become a customer now! The best investment for a successful real estate business.",
+            "TO COMPLETE THE ORDER PROCESS WE NEED SOME FURTHER INFORMATIONS": "To complete the order process, we need the following information:"
+        },
+        "RESET PASSWORD": "Reset Password",
+        "TEST FOR FREE": "Test for free",
+        "UPGRADE": {
+            "REACHED CONTINGENT": "You have reached your maximum estate agent contingent",
+            "REACHED CONTINGENT DESCRIPTION": "Sorry, but you have reached your maximum contingent. Please upgrade your account to increase your contingent or contact your admin. You can still log in with an existing Ogulo account."
+        }
+    },
+    "SCHWARZ": {
+        "ACTION": "Log in with the SSO login of the Schwarz Group",
+        "DESCRIPTION": "Please use the SSO login of the Schwarz Group to use Ogulo.",
+        "LOGO": "Logo of the Schwarz Group",
+        "TITLE": "Login"
+    }
+}

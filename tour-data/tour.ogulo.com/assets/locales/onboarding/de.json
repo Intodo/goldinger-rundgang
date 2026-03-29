@@ -1,0 +1,119 @@
+{
+    "BACKGROUND": "Hintergrundbild",
+    "BACK": "Zurück",
+    "CONNECT LOGIN": {
+        "DISCLAIMER": {
+            "CHECK": "Ich erlaube {{ provider }} auf mein Ogulo-Konto",
+            "SUCCESS": "Verknüpfung erfolgreich",
+            "SUCCESS DESC": "Sie wurden erfolgreich verknüpft. Das Fenster schließt sich in wenigen Sekunden.",
+            "PERMISSION DESC 1": "{{ provider }} möchte auf Ihr Ogulo-Konto zugreifen",
+            "PERMISSION DESC 2": "Damit erhält {{ provider }} bis auf weiteres die Möglichkeit:",
+            "PERMISSIONS": {
+                "P1": "360° Rundgänge: ",
+                "P2": "Interessenten: ",
+                "P3": "Benutzerkonten: ",
+                "P4": "Kontoeinstellungen: ",
+                "P5": "Profileinstellungen: ",
+                "P6": "Vertragseinstellungen: ",
+                "P7": "Bestellungen: ",
+                "CAN ALL": "anlegen, bearbeiten und löschen",
+                "CAN SHOW AND REFACTOR": "anzeigen und bearbeiten"
+            },
+            "REVOKE": "Sie können diese Berechtigungen jederzeit in Ihrem Profil widerrufen."
+        },
+        "ERROR": {
+            "TITLE": "Fehler",
+            "DESC": "Bitte übergeben Sie eine valide Client ID in der Url"
+        },
+        "FOOTER": {
+            "PARTNER": "{{ provider }} ist ein von Ogulo autorisierter Partner.",
+            "SECURE": "Die Verbindung wird sicher und verschlüsselt hergestellt."
+        }
+    },
+    "ONBOARDING CONNECT": {
+        "APPLE": "Mit Apple verknüpfen",
+        "COMPANY": "Mit Firmen-SSO verknüpfen",
+        "COMPANY SSO": "Firmen-SSO",
+        "CONNECT ERROR 1": "Leider ist keine Verbindung möglich, da für Ihr Unternehmen Firmen-SSO hinterlegt ist.",
+        "CONNECT ERROR 2": "Leider ist keine Verbindung möglich, da für Ihr Unternehmen kein Firmen-SSO hinterlegt ist",
+        "DESCRIPTION": "Bitte loggen Sie sich einmalig mit Ihrem bestehenden Ogulo-Konto ein, um die Verknüpfung herzustellen.",
+        "HEADLINE": "Bestehendes Ogulo-Konto verknüpfen",
+        "GOOGLE": "Mit Google verknüpfen",
+        "OGULO": "Verknüpfen"
+    },
+    "EMAIL": "E-Mail",
+    "ONBOARDING ERRORS": {
+        "DEFAULT": "Bei der Anmeldung mit dem SSO der Schwarz Gruppe ist ein Fehler aufgetreten.",
+        "EMAIL NOT FOUND": "E-Mail nicht gefunden",
+        "EMAIL NOT FOUND DESC": "Die E-Mail ist bei uns noch nicht hinterlegt.",
+        "INVALID EMAIL": "E-Mail ist nicht gültig",
+        "INVALID SCHWARZ ACCESS TOKEN": "Sie verfügen leider nicht über die notwendigen Rechte, um den Ogulo Account nutzen zu dürfen.",
+        "INVALID SCHWARZ USER INFOS": "Für den Nutzer wurden keine gültigen Information bereit gestellt.",
+        "LOGIN FAILED": "Die Anmeldung ist fehlgeschlagen.",
+        "LOGIN FAILED DESC": "E-Mail-Adresse oder Passwort sind falsch. Bitte prüfen Sie Ihre Eingaben.",
+        "MAXIMUM TEAM CONTINGENT": "Sie haben Ihr maximales Makler-Kontingent erreicht",
+        "MAXIMUM TEAM CONTINGENT DESC": "Entschuldigen Sie, aber Sie haben Ihr maximales Kontingent erreicht. Bitte upgraden Sie Ihren Account, um Ihr Kontingent zu erhöhen oder wenden Sie sich an Ihren Admin. Sie können sich weiterhin mit einem bestehenden Ogulo-Konto einloggen.",
+        "NO SCHWARZ EMPLOYEE": "Der Nutzer wurde nicht gefunden.",
+        "ONOFFICE ERROR": "Fehler von OnOffice",
+        "ONOFFICE ERROR DESC": "Ihr API-Key hatte nicht genug Rechte, um die Synchronisierung mit OnOffice durchzuführen. Bitte wenden Sie sich an den Support von OnOffice.",
+        "ONOFFICE SIGNATURE": "OnOffice-Signatur fehlgeschlagen",
+        "ONOFFICE SIGNATURE DESC": "Die Prüfung der OnOffice-Signatur ist fehlgeschlagen. Bitte wiederholen Sie den Vorgang oder wenden Sie sich bitte an den Support.",
+        "REQUIRED EMAIL": "E-Mail wird benötigt",
+        "REQUIRED PASSWORD": "Passwort wird benötigt",
+        "SSO LOGIN FAILED": "Anmeldung fehlgeschlagen",
+        "SSO LOGIN FAILED DESC": "Sie haben sich noch nicht über SSO bei uns registriert oder Ihren Account verknüpft.",
+        "USER NOT FOUND": "Account nicht gefunden",
+        "USER NOT FOUND DESC": "Sie haben sich noch nicht bei uns registriert.",
+        "UNKNOWN": "Unbekannter Fehler",
+        "UNKNOWN DESC": "Ein unbekannter Fehler ist aufgetreten. Bitte laden Sie die Seite neu und versuchen es nochmal."
+    },
+    "ONBOARDING LOGIN": {
+        "APPLE": "Mit Apple anmelden",
+        "BY": "Bei <b>{{company}}</b> anmelden",
+        "BACK TO LOGIN": "Zurück zum Login",
+        "COMPANY": "Mit Firmen-SSO anmelden",
+        "CONTINUE": "Weiter",
+        "CREATE ACCOUNT": "Nutzerkonto erstellen",
+        "EMAIL LABEL": "E-Mail",
+        "FORGET PASSWORD": "Passwort vergessen?",
+        "FORM HEADLINE": "Mit E-Mail-Adresse anmelden",
+        "GOOGLE": "Mit Google anmelden",
+        "OGULO": "Login",
+        "NEW PASSWORD": "Neues Password zusenden",
+        "NO ACCOUNT": "Kein Nutzerkonto?",
+        "PASSWORD LABEL": "Passwort",
+        "PASSWORD RESET": "Passwort zurücksetzen",
+        "PASSWORD RESET SUCCESS": "Ihr Passwort wurde zurückgesetzt und an Ihre E-Mail-Adresse gesendet. Bitte überprüfen Sie Ihr Postfach.",
+        "SSO HEADLINE": "Mit SSO anmelden",
+        "WELCOME": "Willkommen! Jetzt anmelden \uD83D\uDC4B"
+    },
+    "LOGO": "Logo der Ogulo GmbH",
+    "OK": "Ok",
+    "ONOFFICE": {
+        "FORGOT PASSWORD DIALOG": "Bitte geben Sie hier Ihre E-Mail an. Sie erhalten von uns eine Mail zum Zurücksetzen ihres Passworts.",
+        "LOGIN ONCE": "Bitte loggen Sie sich einmalig mit Ihrem bestehenden Ogulo-Konto ein, um die Verknüpfung herzustellen.",
+        "LOGIN WITH EXISTING USER": "Bestehendes Ogulo-Konto verknüpfen",
+        "PASSWORD SENT": "Ihr Passwort wurde zurückgesetzt. Bitte überprüfen Sie Ihr Postfach.",
+        "REGISTER": {
+            "ADD": "Hinzufügen",
+            "FIRSTNAME": "Vorname",
+            "LASTNAME": "Nachname",
+            "REGISTER NEW USER": "Neuen Nutzer hinzufügen",
+            "REGISTER NEW USER TO COMPANY": "Registrieren Sie sich bei Ogulo, um zu Ihrer Firma {{companyName}} hinzugefügt zu werden.",
+            "PASSWORD": "Passwort"
+        },
+        "RESET PASSWORD": "Passwort zurücksetzen",
+        "TEST FOR FREE": "Kostenfrei testen",
+        "UPGRADE": {
+            "REACHED CONTINGENT": "Sie haben Ihr maximales Makler-Kontingent erreicht",
+            "REACHED CONTINGENT DESCRIPTION": "Entschuldigen Sie, aber Sie haben Ihr maximales Kontingent erreicht. Bitte upgraden Sie Ihren Account, um Ihr Kontingent zu erhöhen oder wenden Sie sich an Ihren Admin. Sie können sich weiterhin mit einem bestehenden Ogulo-Konto einloggen."
+        }
+    },
+    "OR": "Oder",
+    "SCHWARZ": {
+        "ACTION": "Mit dem SSO-Login der Schwarz Gruppe anmelden",
+        "DESCRIPTION": "Bitte nutzen Sie den SSO-Login der Schwarz Gruppe, um Ogulo zu nutzen.",
+        "LOGO": "Logo der Schwarz Gruppe",
+        "TITLE": "Login"
+    }
+}
