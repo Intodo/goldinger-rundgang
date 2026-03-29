@@ -161,6 +161,25 @@ http.createServer((req, res) => {
       return res.end(FAKE_AUTH);
     }
 
+    // Fehlende S3-Assets live von der echten S3 laden
+    if (domain.includes('.amazonaws.com') || domain.includes('.ogulo.')) {
+      const realUrl = `https://${domain}${filePath}`;
+      console.log('PROXY-LIVE:', realUrl);
+      const proto = require('https');
+      const proxyReq = proto.request(realUrl, {
+        headers: { 'Referer': 'https://rundgang.goldinger.ch/', 'User-Agent': 'Mozilla/5.0' }
+      }, (remoteRes) => {
+        res.writeHead(remoteRes.statusCode, {
+          'Access-Control-Allow-Origin': '*',
+          'Content-Type': remoteRes.headers['content-type'] || 'application/octet-stream',
+          'Cache-Control': 'public, max-age=86400',
+        });
+        remoteRes.pipe(res);
+      });
+      proxyReq.on('error', () => { res.writeHead(502); res.end(); });
+      return proxyReq.end();
+    }
+
     console.log('404:', domain + filePath);
     res.writeHead(404, { 'Access-Control-Allow-Origin': '*' });
     return res.end('Not found');
