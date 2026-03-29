@@ -37,37 +37,17 @@ const FAKE_AUTH = JSON.stringify({
   metadata: null,
 });
 
-// Patcht fetch/XHR im Browser: Ogulo-Domain-URLs werden auf /proxy/... umgeleitet
+// Service Worker registrieren + Seite neu laden sobald SW aktiv ist (beim ersten Besuch)
 const PATCH_SCRIPT = `<script>
-(function() {
-  var DOMAINS = [
-    'https://api.ogulo.com',
-    'http://api.ogulo.com',
-    'https://tour.ogulo.com',
-    'http://tour.ogulo.com',
-    'https://developer.ogulo.com',
-    'http://developer.ogulo.com',
-    'https://live-alpha-ogulo.s3.eu-central-1.amazonaws.com',
-    'http://live-alpha-ogulo.s3.eu-central-1.amazonaws.com',
-    'https://rundgang.goldinger.ch',
-    'http://rundgang.goldinger.ch',
-  ];
-  function rewrite(u) {
-    if (!u || typeof u !== 'string') return u;
-    for (var i = 0; i < DOMAINS.length; i++) {
-      if (u.indexOf(DOMAINS[i]) === 0) return '/proxy/' + u.replace(/^https?:\\/\\//, '');
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js').then(function(reg) {
+    if (!navigator.serviceWorker.controller) {
+      navigator.serviceWorker.addEventListener('controllerchange', function() {
+        location.reload();
+      });
     }
-    return u;
-  }
-  var origFetch = window.fetch;
-  window.fetch = function(u, opts) { return origFetch(rewrite(u), opts); };
-  var origOpen = XMLHttpRequest.prototype.open;
-  XMLHttpRequest.prototype.open = function(m, u) {
-    var args = Array.prototype.slice.call(arguments);
-    args[1] = rewrite(u);
-    return origOpen.apply(this, args);
-  };
-})();
+  });
+}
 </script>`;
 
 const TOUR_HTML = `<!DOCTYPE html>
@@ -124,6 +104,11 @@ http.createServer((req, res) => {
       'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
     });
     return res.end();
+  }
+
+  if (pathname === '/sw.js') {
+    res.writeHead(200, { 'Content-Type': 'application/javascript', 'Service-Worker-Allowed': '/' });
+    return fs.createReadStream(path.join(__dirname, 'sw.js')).pipe(res);
   }
 
   if (pathname === '/' || pathname === '/tour') {
