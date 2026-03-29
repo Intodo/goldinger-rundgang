@@ -25,18 +25,10 @@ const MIME = {
   '.webm': 'video/webm',
 };
 
-const FAKE_AUTH = JSON.stringify({
-  success: true, code: 200, message: 'Success',
-  response: {
-    access: true, granted: true, is_public: true,
-    status: 'active', status_id: 200,
-    login: { required: false, enabled: false, providers: [] },
-    registration: { required: false, enabled: false },
-    user: { id: '57df91a0-4118-11eb-a9f9-06ccb66341dc', is_guest: false },
-    tour_id: 'dc19acf5-2c01-4f9c-a859-7b18a9c3cb4f',
-  },
-  metadata: null,
-});
+// Echte API-Antwort (aus tour-data/api.ogulo.com/tour/viewer)
+const FAKE_AUTH = fs.readFileSync(
+  path.join(__dirname, 'tour-data/api.ogulo.com/tour/viewer'), 'utf8'
+);
 
 // Service Worker registrieren + Seite neu laden sobald SW aktiv ist (beim ersten Besuch)
 const PATCH_SCRIPT = `<script>
@@ -154,6 +146,14 @@ http.createServer((req, res) => {
     console.log('404:', domain + filePath);
     res.writeHead(404, { 'Access-Control-Allow-Origin': '*' });
     return res.end('Not found');
+  }
+
+  // Fallback: Angular nutzt absolute Pfade (/assets/..., /media/...) die base href ignorieren
+  // → aus tour-data/tour.ogulo.com/ servieren
+  const fallbackPath = path.join(DATA_DIR, 'tour.ogulo.com', pathname);
+  if (serveLocal(res, fallbackPath)) {
+    console.log('FALLBACK:', pathname);
+    return;
   }
 
   res.writeHead(404);
