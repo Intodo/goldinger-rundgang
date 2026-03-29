@@ -116,6 +116,19 @@ http.createServer((req, res) => {
   }
 
   if (pathname === '/' || pathname === '/tour') {
+    // Tour-HTML direkt servieren (kein iframe) damit WebXR im Top-Level-Context läuft
+    const vzbdPath = path.join(DATA_DIR, 'tour.ogulo.com', 'VzBD');
+    if (fs.existsSync(vzbdPath)) {
+      try {
+        const buf = fs.readFileSync(vzbdPath);
+        let html = zlib.gunzipSync(buf).toString('utf8');
+        html = html.replace('<base href="/">', '<base href="/proxy/tour.ogulo.com/">');
+        html = html.replace('<head>', '<head><script>window.short_code="VzBD";</script>');
+        html = html.replace('</head>', PATCH_SCRIPT + '</head>');
+        res.writeHead(200, { 'Content-Type': 'text/html', 'Cache-Control': 'no-cache' });
+        return res.end(html);
+      } catch (e) { /* fallback */ }
+    }
     res.writeHead(200, { 'Content-Type': 'text/html' });
     return res.end(TOUR_HTML);
   }
