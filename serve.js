@@ -123,9 +123,15 @@ http.createServer((req, res) => {
         try {
           const content = zlib.gunzipSync(buf).toString('utf8');
           if (content.includes('<base href="/">')) {
-            const patched = content.replace('<base href="/">', `<base href="/proxy/${domain}/">`);
+            let patched = content.replace('<base href="/">', `<base href="/proxy/${domain}/">`);
+            // window.short_code setzen damit Angular den Tour-Code erkennt
+            // (sonst liest es location.pathname.substring(1) = "proxy/tour.ogulo.com/VzBD")
+            const tourKey = filePath.split('/').filter(Boolean).pop() || '';
+            if (tourKey.length === 4) {
+              patched = patched.replace('<head>', `<head><script>window.short_code="${tourKey}";</script>`);
+            }
             res.writeHead(200, { 'Content-Type': 'text/html', 'Access-Control-Allow-Origin': '*', 'Cache-Control': 'no-cache' });
-            console.log('HTML-PATCH:', domain + filePath);
+            console.log('HTML-PATCH:', domain + filePath, '| short_code:', tourKey);
             return res.end(patched);
           }
         } catch (e) { /* kein HTML, normal weitermachen */ }
