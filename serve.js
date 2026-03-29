@@ -57,12 +57,11 @@ const TOUR_HTML = `<!DOCTYPE html>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Goldinger Rundgang</title>
-  <style>body{margin:0;padding:0;background:#000} ogulo-tour{display:block;width:100vw;height:100vh}</style>
+  <style>*{margin:0;padding:0} body{background:#000} iframe{display:block;width:100vw;height:100vh;border:none}</style>
   ${PATCH_SCRIPT}
-  <script src="/proxy/developer.ogulo.com/js/embed.js"></script>
 </head>
 <body>
-  <ogulo-tour tour="VzBD"></ogulo-tour>
+  <iframe src="/proxy/tour.ogulo.com/VzBD?wc_embed=true" allow="fullscreen; xr-spatial-tracking; vr" allowfullscreen></iframe>
 </body>
 </html>`;
 
