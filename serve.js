@@ -3,6 +3,7 @@ const https = require('https');
 const fs = require('fs');
 const path = require('path');
 const url = require('url');
+const zlib = require('zlib');
 
 const DATA_DIR = path.join(__dirname, 'tour-data');
 const PORT = parseInt(process.env.PORT || '3000');
@@ -123,6 +124,23 @@ http.createServer((req, res) => {
     const filePath = firstSlash === -1 ? '/index.html' : proxyPath.slice(firstSlash);
 
     const localPath = path.join(DATA_DIR, domain, filePath);
+
+    // Gzip-HTML: <base href="/"> auf /proxy/domain/ patchen damit relative URLs stimmen
+    if (fs.existsSync(localPath) && !fs.statSync(localPath).isDirectory()) {
+      const buf = fs.readFileSync(localPath);
+      if (buf[0] === 0x1f && buf[1] === 0x8b) {
+        try {
+          const content = zlib.gunzipSync(buf).toString('utf8');
+          if (content.includes('<base href="/">')) {
+            const patched = content.replace('<base href="/">', `<base href="/proxy/${domain}/">`);
+            res.writeHead(200, { 'Content-Type': 'text/html', 'Access-Control-Allow-Origin': '*', 'Cache-Control': 'no-cache' });
+            console.log('HTML-PATCH:', domain + filePath);
+            return res.end(patched);
+          }
+        } catch (e) { /* kein HTML, normal weitermachen */ }
+      }
+    }
+
     if (serveLocal(res, localPath)) {
       console.log('LOCAL:', domain + filePath);
       return;
